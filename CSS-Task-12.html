@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+           
+        } */
+        #ab{
+            display: grid;
+
+            place-items: center; 
+            /* width: fit-content;
+            border: 1px solid black; */
+        }
+        img{
+           align-self: center;
+        }
+        .input{
+            padding: 8px;
+            width: 500px;
+            border: 1px solid rgb(213, 208, 208);
+        }
+        #login{
+            width: 513px;
+            padding: 9px;
+            background-color: rgb(55, 224, 55);
+            border: none;
+            color: white;
+        }
+        .footer{
+            background-color: rgb(238, 234, 234);
+            display: flex;
+            border-top: 1px solid rgb(213, 208, 208);
+            justify-content: space-between;
+            /* padding-bottom: 5px; */
+        }
+        div{
+            display: grid;
+            place-items: center; 
+        }
+        #cancel{
+            padding: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 6px;
+            margin-left: 3px;
+        }
+        #img{
+           display: grid;
+           place-items: center;
+        }
+        p{
+            margin-right: 3px;
+        }
+    </style>
+</head>
+<body >
+   
+    <div id="ab" >
+       
+    <form>
+        <div id="img">
+            <br>
+        <img src="/profile.png" style="align-items: center;"/>
+    </div>
+        <br>
+            <b>Username</b><br>
+            <input type="text" placeholder="Enter Username" class="input">
+            <br>
+            <br>
+            <b>Password</b><br>
+            <input type="text" placeholder="Enter Password" class="input">
+            <br>
+            <br>
+            <button id="login">Login</button>
+            <br>
+            <br>
+            <input type="checkbox" checked> Rememeber Me!
+            <br>
+            <br>
+            <div class="footer">
+                <div> <button id="cancel">Cancel</button></div>
+                <br>
+                <p>Forgot <u>password?</u> </p>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

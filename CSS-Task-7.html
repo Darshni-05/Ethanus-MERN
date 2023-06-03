@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            background-color: rgb(11, 205, 11);
+        }
+        #two{
+            background-color: rgb(0, 200, 255);
+        }
+        #three{
+            background-color: rgb(216, 43, 43);
+        }
+        #four{
+            background-color: black;
+        }
+        button{
+            width:30px;
+            height:30px;
+            padding: 10px;
+            margin-bottom: 4px;
+            border-radius: 2px;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+        button:hover{
+            width:100px;
+            display:block; 
+            
+
+        }
+        button:hover span{
+            display: inline;
+            padding-top: 25px;
+        }
+        button span{
+            display:none;
+            padding-top: 25px;
+        }
+        body{
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+        }
+        nav{
+            margin: 20px 20px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button id="one"><span>HomePage</span></button>
+        <button id="two"><span>HTML</span></button>
+        <button id="three"><span>CSS</span></button>
+        <button id="four"><span>Javascript</span></button>
+    </nav>
+    <main>
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the lift side navigation to open them</p>
+    </main>
+</body>
+</html>
